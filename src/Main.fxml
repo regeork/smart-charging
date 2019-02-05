@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <left>
+      <VBox fx:id="menuBar" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="150.0" styleClass="menubar" stylesheets="@application/stylesheet.css" BorderPane.alignment="CENTER">
+      
+         <children>
+            <Label alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" text="Menu" textFill="#f7f4f7">
+               <font>
+                  <Font name="Yu Gothic Regular" size="17.0" />
+               </font>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="15.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <HBox fx:id="ArrivalDeparture" alignment="CENTER_LEFT" layoutX="10.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#openArrivalDeparture" prefHeight="60.0" prefWidth="150.0" styleClass="menubar-btn">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <children>
+                  <MaterialDesignIconView glyphName="EV_STATION" size="1.5em" styleClass="menubar-btn-icon" />
+                  <Label alignment="CENTER" text="Simulation" textFill="#f7f4f7" wrapText="true">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="3.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <AnchorPane fx:id="arrivalDeparture" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="content" stylesheets="@application/stylesheet.css" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="cancelButton" layoutX="362.0" layoutY="200.0" onAction="#cancelDeparture" prefHeight="60.0" prefWidth="139.0" text="STOP" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="startButton" layoutX="108.0" layoutY="200.0" onAction="#startAlgorithm" prefHeight="60.0" prefWidth="139.0" text="START" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

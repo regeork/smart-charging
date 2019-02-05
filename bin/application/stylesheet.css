@@ -1,0 +1,39 @@
+.menubar{
+	-fx-background-color: #465c87;
+}
+.menubar-btn{
+	-fx-background-color: transparent;
+	-fx-background-radius: 0px;
+	-fx-text-fill: #f7f4f7;
+}
+.cStation-btn{
+	-fx-background-color: transparent;
+	-fx-background-radius: 0px;
+	-fx-text-fill: #f7f4f7;
+}
+.content{
+	-fx-background-color: #6b94c6;
+}
+.menubar-btn:hover{
+	-fx-background-color: transparent;
+	-fx-background-radius: 0px;
+	-fx-text-fill: #f7f4f7;
+	-fx-border-color: #6290c9;
+	-fx-border-width: 0px 0px 0px 3px;
+}
+.cStation-btn:hover{
+	-fx-background-color: transparent;
+	-fx-background-radius: 0px;
+	-fx-text-fill: #f7f4f7;
+	-fx-border-color: #6290c9;
+	-fx-border-width: 4px 0px 0px 0px;
+}
+.menubar-btn-icon{
+	-fx-fill: #f7f4f7;
+}
+.jfx-text-field {
+    -fx-prompt-text-fill: #f7f4f7;
+    -fx-text-fill: #f7f4f7;
+    -jfx-focus-color: #f7f4f7;
+    -jfx-unfocus-color: #f7f4f7;
+}
