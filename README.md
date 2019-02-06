@@ -1,6 +1,6 @@
 # Smart Charging Algorithms for Electric Vehicles considering Voltage and Thermal Constraints
 
-A short documentation for the presented Java SmartCharging files can be found [here](https://github.com/regeork/smart-charging/blob/masterDocumentation_SmartCharging.pdf). 
+A short documentation for the presented Java SmartCharging files can be found [here](https://github.com/regeork/smart-charging/blob/master/Documentation_SmartCharging.pdf). 
 
 ## Used Open Source Software in This Product
 
