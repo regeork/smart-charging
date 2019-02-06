@@ -15,9 +15,14 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+			
 
+				
 /***
- * For more information regarding the voltageControl(), thermalManagementControl() and	dynTable() methods, please refer to:
+ * The design of the methods voltageControl(), thermalManagementControl() and dynTable()
+ * has been developed by García Veloso, César. 
+ * 
+ * For more information regarding these methods, please refer to:
  * "Real Time Voltage and Thermal Management of Low Voltage Distribution Networks through Plug-in Electric Vehicles"
  * https://upcommons.upc.edu/handle/2117/109082
  * García Veloso, César
